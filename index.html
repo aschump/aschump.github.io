@@ -20,7 +20,22 @@
     <nav>
         <div class="navlist">
             <ul>
-                <li><a href="#">Contact</a></li>
+                <li>
+                    <div class="socialimg">
+                        <a href="https://github.com/aschump"><img src="img/github.png" alt="github"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="socialimg">
+                        <a href="https://www.linkedin.com/in/aschumpert/"><img src="img/linkedin.png"
+                                alt="linkedin"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="socialimg">
+                        <a href="https://codepen.io/aschump"><img src="img/codepen.png" alt="codepen"></a>
+                    </div>
+                </li>
             </ul>
         </div>
     </nav>
@@ -30,7 +45,7 @@
 
     <body>
         <div class="row">
-            <div class="col-md-2 pull-left">
+            <div class="col-md-3 pull-left">
                 <div class="bio">
                     <h1>I'm Amber</h1>
                     <h5>I'm an Indianapolis based developer focused on creating an efficient and user-friendly
@@ -40,13 +55,15 @@
                     <a href="img/2021_Tech_Resume.docx" target="_blank">Download or View Resume</a>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <a href="https://codepen.io/aschump/details/vYyVbrW" target="_blank">
-                    <img src="img/creatureassignment.PNG" class="img-thumbnail" width=100px height="100px">
-                    <h3>Creature Assignment</h3>
-                </a>
+            <div class="col-md-3">
+                <div class="projects">
+                    <a href="https://codepen.io/aschump/details/vYyVbrW" target="_blank">
+                        <img src="img/creatureassignment.PNG" class="img-thumbnail">
+                        <h3>Creature Assignment</h3>
+                    </a>
+                </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-md-3">
                 <div class="projects">
                     <a href="https://aschump.github.io/HTMLStaticStoreFront/" target="_blank">
                         <img src="img/staticstorefront.PNG" class="img-thumbnail">
@@ -55,31 +72,46 @@
                     <br />
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="sites">
-                        <a href="https://github.com/aschump"><img src="img/github.png" class="socials" alt="github"></a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="https://www.linkedin.com/in/aschumpert/"><img src="img/linkedin.png" class="socials"
-                                alt="linkedin"></a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="https://codepen.io/aschump"><img src="img/codepen.png" class="socials"
-                                alt="codepen"></a>
-                    </div>
+            <div class="col-md-3">
+                <div class="projects">
+                    <a href="https://npmvc.azurewebsites.net" target="_blank">
+                        <img src="img/npmvc.PNG" class="img-thumbnail">
+                        <h3>Serenity Naturals MVCt</h3>
+                    </a>
                 </div>
             </div>
+        </div>
+    </body>
+</div>
+<hr />
+        <form action="https://formspree.io/f/xeqvgavy" method="POST">
+            <h3>Contact Me</h3>
+            <label>
+                Your email:
+                <input type="email" name="_replyto">
+            </label><br />
+            <label>
+                Your message:
+                <textarea name="message"></textarea>
+            </label>
 
-            <!--FOOTER-->
-            <div class="clear"></div>
-            <!-- < ^will keep footer at bottom^ > -->
-            <footer>
-                <ul class="siteinfotable">
-                    <li>&copy;2021 |</li>
-                    <li>Site by Amber</li>
-                </ul>
-            </footer>
+            <!-- your other form fields go here -->
+
+            <button type="submit">Send</button>
+        </form>
+        <!--FOOTER-->
+        <div class="clear"></div>
+        <!-- < ^will keep footer at bottom^ > -->
+        <footer>
+            <ul class="siteinfotable">
+                <li>&copy;2021 |</li>
+                <li>Site by Amber |</li>
+                <li>
+                    <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
+                            href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                </li>
+            </ul>
+        </footer>
     </body>
 
 </html>

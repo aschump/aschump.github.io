@@ -12,7 +12,7 @@
     font-family: 'Barlow Condensed', sans-serif;
     font-size: x-large;
     font-weight:bold;
-    text-align: center;
+    align-items: center;
     
 }
 .navlist img{
@@ -102,12 +102,17 @@ body{
     max-height: auto;
     display: inline-block;
 }
-/* .socialtable li{
-    display: inline-block;
-    margin: 0;
-    padding: 0px;
-} */
+.contact{
+    padding: 2em;
+    margin: 2em;
+    border: 3px solid black;
+}
 /*Footer*/
+.siteinfotable{
+    /*will center the table hopefully*/
+    margin-left: 40%;
+    margin-right: 30%;     
+}
 footer{
     background-color:grey; 
     height:30px;

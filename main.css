@@ -1,4 +1,4 @@
-
+/* 
 /*footer stuff to help make it stay at the bottom*/
 .clear { 
     clear:both;
@@ -67,19 +67,14 @@ h2{
     padding:10px;
     border-radius:5px;  
 }
-
-
-
-
 /*Body*/
 body{
-    /* background: white repeat fixed top center;
-    margin: 0px;
-    padding: 0px; */
+
     background-image: url("img/color.jpg");
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size: cover;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 .bio{
     width: 200px;
@@ -90,51 +85,16 @@ body{
     margin-right: 30px;
     margin-bottom:90px;
     padding:10px;
-    background-color:grey;
+    background-color:transparent;
     float:right;   
 }
-.bio h2{
-    text-align: center;
-}
-.horizontal-scroll-available-pieces{
-    /*says whether to add scroll bar when content overflows at the left and right edge*/
-    overflow-y: hidden;
-    /*determines clipping at the top and bottom edges*/
-    overflow-x: scroll;
-    white-space: nowrap;
-      
-      
-}
-.projects{
+img{
     display: inline-block;
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
     padding: 0 5% 0 0;
 }
-::-webkit-scrollbar{
-    background:transparent;
-    width: 10px;
-}
-::-webkit-scrollbar-thumb{
-    background:black;
-}
-/* 
-button{
-    background-color:lemonchiffon;
-    border: transparent;
-    text-align:center;
-    color: rgb(43, 160, 160);
-    font-weight:bold;
-    margin:3px;
-    
-} */
-/* .line{
-    border: solid 1px black;
-    width: 50px;
-    height: 8px;
-} */
-
 
 /*Footer*/
 footer{
@@ -143,15 +103,8 @@ footer{
     margin-top: 110px;
            
 }
-
-.siteinfotable{
-    /*will center the table hopefully*/
-    margin-left: 40%;
-    margin-right: 30%;     
-}
-
 footer li {
     display: inline-block;
     margin: 0;
     padding: 0px;
-}
+} 
